@@ -8,6 +8,9 @@ const Header = () => {
       <li className="font-semibold">
         <Link to="/">Home</Link>
       </li>
+      <li className="font-semibold">
+        <Link to="/login">Login</Link>
+      </li>
     </>
   );
   return (
@@ -45,7 +48,9 @@ const Header = () => {
         <ul className="menu menu-horizontal p-0">{menuItems}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Get started</a>
+        <button className="btn text-[#FF3811] btn-outline hover:bg-[#FF3811] hover:border hover:border-[#FF3811]">
+          Appointment
+        </button>
       </div>
     </div>
   );
